@@ -502,6 +502,10 @@
         <item>"/system_ext/priv-app/SystemUI/SystemUI.apk"</item>
     </string-array>
 
+
+    <!-- Bytes that the PinnerService will pin for Home app -->
+    <integer name="config_pinnerHomePinBytes">6291456</integer>
+    
     <!-- Should the pinner service pin the Home application? -->
     <bool name="config_pinnerHomeApp">true</bool>
 
