@@ -69,6 +69,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     MtkInCallService
 
+PRODUCT_PACKAGES += \
+    VolumeSynchronizer
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
     $(LOCAL_PATH)/configs/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
