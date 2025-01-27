@@ -8,3 +8,9 @@ persist.dbg.wfc_avail_ovr=1
 
 # Zygote
 zygote.critical_window.minute=10
+
+# Infinity-X AboutPhone
+ro.infinity.soc=Mediatek Dimensity 810
+ro.infinity.battery=5000mAh
+ro.infinity.display=1080x2400, 90Hz
+ro.infinity.camera=50MP + 8MP + 16MP
