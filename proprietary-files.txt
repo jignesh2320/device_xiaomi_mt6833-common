@@ -310,6 +310,12 @@ vendor/lib/egl/egl.cfg
 -vendor/lib64/vendor.mediatek.hardware.pq@2.8.so
 -vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 
+# Sensors
+-vendor/etc/elliptic_sensor.xml
+-vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
+-vendor/lib64/hw/sensors.elliptic.so
+-vendor/lib64/hw/sensors.mt6833.so
+
 # Hotword Enrollment
 -product/priv-app/HotwordEnrollmentOKGoogleRISCV/HotwordEnrollmentOKGoogleRISCV.apk
 -product/priv-app/HotwordEnrollmentXGoogleRISCV/HotwordEnrollmentXGoogleRISCV.apk
